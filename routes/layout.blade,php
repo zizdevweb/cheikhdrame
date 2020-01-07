@@ -1,2 +1,1 @@
-
-  @yield('contenu_page')
+@yield('contenu_page')

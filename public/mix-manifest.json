@@ -1,5 +1,5 @@
 {
-    "/js/stylish-portfolio.js": "/js/stylish-portfolio.js",
-    "/resources/sass/variables.scss": "/resources/sass/variables.scss",
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
     "/css/all.css": "/css/all.css"
 }

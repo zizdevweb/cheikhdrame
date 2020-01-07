@@ -1,16 +1,16 @@
 
 
-@extends('layout')
+@extends('layouts.app')
 
 
-@secttion('contenu_page')
+@section('contenu_page')
 <div class="container">
    <h1> Ma page d'etude{($id)}<h1>
     </div>
 
 @endsection
 
-  
+
 
 
   <!-- About -->
@@ -25,18 +25,18 @@
               L’architecture des études est fondée sur 2 grades (Licence, Master, ) Diplômes déclinés en domaines, mentions et spécialités.
               Organisation de formation en semestre.
               Système composé d’unités d’enseignement (U.E) ou modules.</p><br>
-          
+
               <p> Un crédit est une unité de mesure des enseignements.
           Le crédit est une unité qui permet à l’université d’attribuer une valeur numérique aux études et travail exigés d’un étudiant pour atteindre les objectifs d’une activité d’enseignement ou de recherche.
           </p><br>
-            
-            
+
+
             <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">suivant</a>
           </div>
         </div>
       </div>
     </section>
-  
+
   <!-- Services -->
   <section class="content-section bg-primary text-white text-center" id="services">
     <div class="container">
@@ -52,7 +52,7 @@
           <h4>
             <strong>Informatique general</strong>
           </h4>
-          
+
         </div>
 
 
@@ -64,7 +64,7 @@
             <h4>
               <strong>Reseau telecom</strong>
             </h4>
-            
+
           </div>
 
 
@@ -75,7 +75,7 @@
           <h4>
             <strong>gestion et compta</strong>
           </h4>
-          
+
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
@@ -84,7 +84,7 @@
           <h4>
             <strong>sante</strong>
           </h4>
-          
+
             <i class="fas fa-heart"></i>
             </p>
         </div>
@@ -95,14 +95,14 @@
           <h4>
             <strong>agro alimentaire</strong>
           </h4>
-          
+
         </div>
       </div>
     </div>
-    
+
   </section>
 
-  
+
 
   <!-- Portfolio -->
   <section class="content-section" id="portfolio">
@@ -181,4 +181,3 @@
     </small>
   </section>
 
-  

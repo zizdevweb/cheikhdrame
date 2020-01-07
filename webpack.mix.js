@@ -11,6 +11,5 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js(['resources/js/stylish-portfolio.js','resources/js/stylish-portfolio.min.js'], 'public/js')
-.sass('resources/sass/app.scss','resources/sass/variables.scss', 'public/css')
-.styles(['resources/css/fichiers_css1.css','resources/css/fichiers_css2.css','resources/css/stylish-portfolio.min.css'], 'public/css/all.css');
+mix.js('resources/js/app.js', 'public/js')
+   .sass('resources/sass/app.scss', 'public/css');
